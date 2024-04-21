@@ -1,0 +1,36 @@
+{
+  "name": "yishuo-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "yishuo-ui core",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "license": "MIT",
+  "author": "Huangyue",
+  "contributors": [],
+  "main": "src/main.js",
+  "module": "src/main.js",
+  "publishConfig": {
+    "main": "dist/yishuo-ui.cjs.js",
+    "module": "dist/yishuo-ui.es.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "yishuo-ui"
+  ],
+  "dependencies": {
+    "@yishuo-ui/utils": "workspace:^",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}

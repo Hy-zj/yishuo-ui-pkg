@@ -1,0 +1,26 @@
+{
+  "name": "@yishuo-ui/utils",
+  "version": "1.0.0",
+  "description": "逸烁UI对应的工具库",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "publishConfig": {
+    "main": "dist/yishuo-ui-utils.cjs.js",
+    "module": "dist/yishuo-ui-utils.es.js",
+    "typings": "dist/src/index.d.ts",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "beta",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "rimraf": "^5.0.5",
+    "rollup": "^4.15.0"
+  }
+}
