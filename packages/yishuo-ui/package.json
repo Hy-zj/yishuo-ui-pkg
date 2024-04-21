@@ -1,7 +1,6 @@
 {
   "name": "yishuo-ui",
-  "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "yishuo-ui core",
   "scripts": {
@@ -9,14 +8,23 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "license": "MIT",
   "author": "Huangyue",
   "contributors": [],
   "main": "src/main.js",
   "module": "src/main.js",
   "publishConfig": {
     "main": "dist/yishuo-ui.cjs.js",
-    "module": "dist/yishuo-ui.es.js"
+    "module": "dist/yishuo-ui.es.js",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "beta",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hy-zj/yishuo-ui-pkg.git"
+  },
+  "bugs": {
+    "url": "  https://github.com/Hy-zj/yishuo-ui-pkg/issues"
   },
   "files": [
     "dist",

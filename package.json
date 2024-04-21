@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": { 
     "changeset": "changeset",
     "update:version": "changeset version",
     "release": "changeset publish",
@@ -12,7 +12,7 @@
     "build:utils": "pnpm --filter @yishuo-ui/utils build"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "dependencies": {
     "@changesets/cli": "^2.27.1"
